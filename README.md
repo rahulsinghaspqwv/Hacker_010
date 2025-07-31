@@ -18,3 +18,12 @@ reverse the core Engineering of android apk
 - Ghidra
 - Drozer
 - MobSF
+
+# Testing Devices 
+- Samsung Galaxy j7 pro (SM-J730gm) - Physical Device
+- Samsung Galaxy j2 pro - Physical Device
+- Samsung Galaxy j2 pro - Physical Device
+- Google Pixel 4 - AVD Device 
+- Genymotion Virtual Device 
+
+and i am using the image between android 6 to android 11, 12 not for higher version . 
