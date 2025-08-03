@@ -28,7 +28,7 @@ reverse the core Engineering of android apk
 - Nothing Phone 2A - Physical, Android 15 (Vanilla Ice Cream)
 - realme Narzo 50A - physical, Android 11 (Red Velvet Cake)
 
-and i am using the image between android 6 to android 11, 12 not for higher version . 
+and i am using the image between android 6 to android 15. 
 
 # Adding an simple app  
 

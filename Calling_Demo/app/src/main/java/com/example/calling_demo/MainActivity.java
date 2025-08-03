@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -38,18 +40,52 @@ public class MainActivity extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.editText);
         button = (Button) findViewById(R.id.button);
 
+//        editText.addTextChangedListener(new TextWatcher() {
+//            @Override
+//            public void afterTextChanged(Editable s) {
+//                String input = s.toString();
+//                if (!input.isEmpty()){
+//                    try{
+//                        long number = Long.parseLong(input);
+//                        if (input.length() < 5 || input.length() > 10){
+//                            editText.setError("please enter a valid Mobile Number.");
+//                        } else {
+//                            editText.setError(null); // clear errors if valid
+//                        }
+//                    } catch (NumberFormatException e){
+//                        editText.setError("Invalid Mobile Number.");
+//                    }
+//                } else {
+//                    editText.setError(null);
+//                }
+//            }
+//
+//            @Override
+//            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+//                // Not needed for this validation
+//            }
+//
+//            @Override
+//            public void onTextChanged(CharSequence s, int start, int before, int count) {
+//                // Not needed for this validation
+//            }
+//        });
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String phoneNumber = editText.getText().toString();
                 if (!phoneNumber.isEmpty()){
                     if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED){
-                        // Make the Call
-                        Intent phoneIntent = new Intent(Intent.ACTION_CALL);
-                        phoneIntent.setData(Uri.parse("tel:" + phoneNumber));
-                        startActivity(phoneIntent);
+                        if (phoneNumber.length() == 10){
+                            // Make the Call
+                            Intent phoneIntent = new Intent(Intent.ACTION_CALL);
+                            phoneIntent.setData(Uri.parse("tel:" + phoneNumber));
+                            startActivity(phoneIntent);
+                        } else {
+                            Toast.makeText(MainActivity.this, "Invalid Number! ", Toast.LENGTH_SHORT).show();
+                        }
                     } else {
-                        // Request Permission
                         requestCallPermission();
                     }
                 } else {
@@ -57,8 +93,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
     }
+
     private void requestCallPermission(){
         ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CALL_PHONE}, CALL_PHONE_PERMISSION_CODE);
     }
