@@ -36,5 +36,5 @@ an App folder which you can test with simple reverse engineering.
 
 # Adding an simple calling App
 
-added <U><b> Calling_Demo </b></U> App 
+added <ims> <b> Calling_Demo </b></ims> App 
             
