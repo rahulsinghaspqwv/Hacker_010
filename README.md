@@ -37,4 +37,3 @@ an App folder which you can test with simple reverse engineering.
 # Adding an simple calling App
 
 added [Calling_Demo](https://github.com/rahulsinghaspqwv/Hacker_010/tree/main/Calling_Demo) App 
-            
