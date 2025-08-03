@@ -20,11 +20,13 @@ reverse the core Engineering of android apk
 - MobSF
 
 # Testing Devices 
-- Samsung Galaxy j7 pro (SM-J730gm) - Physical Device
-- Samsung Galaxy j2 pro - Physical Device
-- Samsung Galaxy j2 pro - Physical Device
-- Google Pixel 4 - AVD Device 
-- Genymotion Virtual Device 
+- Samsung Galaxy j7 pro (SM-J730gm) - Physical Device, Android 9 (Android Pie)
+- Samsung Galaxy j2 pro - Physical Device, Android, 7.1 (Cheesecake)
+- Samsung Galaxy j2 pro - Physical Device, Android, 7.1 (Cheesecake)
+- Google Pixel 4 - AVD Device, Android 10 (Quince Tart)
+- Genymotion Virtual Device, Android 10 (Quince Tart)
+- Nothing Phone 2A - Physical, Android 15 (Vanilla Ice Cream)
+- realme Narzo 50A - physical, Android 11 (Red Velvet Cake)
 
 and i am using the image between android 6 to android 11, 12 not for higher version . 
 
@@ -34,5 +36,5 @@ an App folder which you can test with simple reverse engineering.
 
 # Adding an simple calling App
 
-
+added <U><b> Calling_Demo </b></U> App 
             
