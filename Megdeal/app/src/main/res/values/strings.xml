@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Megdeal</string>
+    <string name="hint_refer_code_optional">Refer code(optional)</string>
+    <string name="hint_password">password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_mobile_number">Mobile Number</string>
+    <string name="hint_name">Name</string>
+    <string name="create_account_log_in_string">Log In?</string>
+    <string name="create_account_create_account_string">Create Account</string>
+    <string name="signUpBtn_sign_up">Sign Up</string>
+</resources>
