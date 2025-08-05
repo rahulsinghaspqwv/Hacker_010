@@ -39,10 +39,10 @@ an App folder which you can test with simple reverse engineering.
 added [Calling_Demo](https://github.com/rahulsinghaspqwv/Hacker_010/tree/main/Calling_Demo) App 
 
 # Adding an full working Testing app (This App is built by me. and it's not for online usage or commercial usage. It's only for testing.)
-[Megdeal] Completing Soon.
+[Megdeal](https://github.com/rahulsinghaspqwv/Hacker_010/tree/main/Megdeal) Completing Soon.
 # Disclaimer:
 - Disclaimer 
 This app is intended solely for testing and educational purposes. Any use of the reverse-engineered source code is strictly for understanding and learning. I do not condone or support any unauthorized or illegal use of this application and the way of reverse engineering use in this Article.
 I am providing this App or the way of using the tools and conduct reverse enginner to understand the perfct way to get the source code or master in it. 
-Testing App [Megdeal]
+Testing App [Megdeal](https://github.com/rahulsinghaspqwv/Hacker_010/tree/main/Megdeal)
 You can build the apk file with this folder or use the source code to make with the apk which you build and test with tools to get proper source code . that's the reason why i am providing the full app with source code folder <b> (project folder which build in android studio using java. ) </b>
